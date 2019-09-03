@@ -1,6 +1,6 @@
 # WebAPI1 
 
-<img src= "(https://user-images.githubusercontent.com/47560139/64175202-20413180-ce5b-11e9-8cd8-8f19f30d8b25.jpg)" width="70">
+<img src= "(https://github.com/ringarochkryss/WebAPI1/issues/1#issue-488591147)" width="70">
 
 https://ringarochkryss.github.io/WebAPI1/
 
