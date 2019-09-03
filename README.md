@@ -1,15 +1,13 @@
-# WebAPI1
+# WebAPI1 
 
-<img src= "https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png" width="70">
+<img src= "WebAPI1/karamellbrand logo.jpg?raw=true" width="70">
 
-
-First Milestone Project at Code Institute 
 https://ringarochkryss.github.io/WebAPI1/
 
 ---
 
 ### Description
-This is a Web Service Api in .Net C# with a xml-data source containing information about Books. 
+This is a Web Service Api in .Net C# with a xml-data source containing information about Books.<br/> 
 The service provides data as json.
 
 
@@ -17,7 +15,7 @@ The service provides data as json.
 ---
 ### Content
 The service provides the following: 
-* GET all books *.../api/books *../api/books 
+* GET all books *.../api/books
 * Get search for Author *.../api/books?author=author
 * GET search for Title  *.../api/books?title=title
 * GET search for Genre   *.../api/books?genre?genre
@@ -58,7 +56,7 @@ and a simple layout.
 * Viewstart (html) -This html is loaded with a hidden table (with all the books) and a search input 
 provides the possibility to search for book title, authors or genre.
 
-Also this html displayes the web api paths for "get all books" and the search functions with examples.
+Also this html displays the web api paths for "get all books" and the search functions with examples.
 Pressing buttons with examples displays json data sent form this Web Api.
 
 The Html is supported by a JS-file with Jquery (Bookscript) pointing to the Web Service URI:s. 
@@ -81,7 +79,6 @@ A index html page displays the content from these files.
 
 ### Technologies used 
 #### [Visual Studio](https://visualstudio.microsoft.com/) 
-* Final commits and work was made in VS.
 #### [Git Hub](https://github.com/) 
 #### [W3 Validator](https://validator.w3.org/) -Html & CSS
 #### [Font Awsome](https://fontawesome.com/)
@@ -116,11 +113,11 @@ A index html page displays the content from these files.
    
    
 #### Solutions & Analysis 
-     * The Datetime sent from the web service is correct. To display it without time in the frontend 
+   * The Datetime sent from the web service is correct. To display it without time in the frontend 
         would improve readability and give a more professional impression.
-     * The issue with displaying repeated data needs to be tracked to the right source. The number of repeats varies
+   * The issue with displaying repeated data needs to be tracked to the right source. The number of repeats varies
         and that should indicate where to look for a solution. 
-     * When user types in input field -the table findings is displayed. But if the user earase all text in input 
+   * When user types in input field -the table findings is displayed. But if the user earase all text in input 
      -the whole table should be hidden again. Instead the table is displayed with all data items.  
        User can manually hide the table by pushing a button however this is not good enough ux. 
 
@@ -166,7 +163,7 @@ Acknowledgements to [Microsoft] (https://docs.microsoft.com/)
 ---
 
 With great support from:
-Mentor: :star: @Ivan   
+Mentor: :star: @ivanprgomet  
 @Sigma ITC Malmö
 
 
