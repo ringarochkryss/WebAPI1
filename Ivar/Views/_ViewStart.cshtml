@@ -1,3 +1,108 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<br /><br />
+
+<div class="container">
+
+    <div class="jumbotron Backgroundlayout">
+        <br />
+        <div align="center">
+            <h3>Search Books</h3>
+            <input type="text" name="search" id="search" class="form-control"
+                   placeholder="search for books (title, author, genre)" />
+        </div>
+
+        <br />
+        <div align="center">
+            <input type="button" class="btn btn-secondary btn-sm active" id="GetAllBooks" value="Show All" />
+            <input type="button" class="btn btn-secondary btn-sm active" id="HideAllBooks" value="Hide" />
+            <br />
+        </div>
+        <div>
+
+            <table id="tblBokhylla" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th>Publish Date</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" />
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<hr />
+
+<div class="jumbotron Backgroundlayout">
+    <h3 align="center"><b>Using this Web Api</b></h3>
+    <p align="center">This Api provides data in json.</p>
+    <div class="row col-12 d-block">
+
+        <div align="center" class="col-lg-3">
+            <a href="http://localhost:53842/api/books"
+               class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">All Data</a>
+            <p class="linktext"> /api/books</p>
+        </div>
+
+        <div align="center" class="col-lg-3">
+            <a href="http://localhost:53842/api/books?title=Deploying with JRuby"
+               class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Search Title</a>
+            <p class="linktext"> /api/books?<br />title=<i>title</i></p>
+        </div>
+        <div align="center" class="col-lg-3">
+            <a href="http://localhost:53842/api/books?author=Corets, Eva"
+               class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Search Author</a>
+            <p class="linktext"> /api/books?<br />author=<i>author</i></p>
+        </div>
+        <div align="center" class="col-lg-3">
+            <a href="http://localhost:53842/api/books?Genre=Computer"
+               class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Search Genre</a>
+            <p class="linktext"> /api/books?<br />genre=<i>genre</i></p>
+        </div>
+    </div>
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h3 align="center"><b>References</b></h3>
+    <div align="center" class="col-lg-3 col-lg-offset-3">
+        <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/older-versions/creating-a-web-api-that-supports-crud-operations#adding-a-repository"
+           class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Microsoft</a>
+        <p class="linktext"> Microsoft API</p>
+    </div>
+    <div align="center" class="col-lg-3">
+        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq?view=netframework-4.8"
+           class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Linq</a>
+        <p class="linktext">Microsoft Linq</p>
+    </div>
+</div>
+
+

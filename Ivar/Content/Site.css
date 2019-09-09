@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:ghostwhite;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -15,3 +16,26 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.Backgroundlayout{
+    background-color:transparent;
+}
+
+-linktext{
+    color:dimgrey;
+    font-weight:100;
+    
+}
+
+
+/*
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.ui-autocomplete {
+    height: 100px;
+}*/
+

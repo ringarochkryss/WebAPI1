@@ -14,5 +14,10 @@ namespace Ivar.Controllers
 
             return View();
         }
+        public ActionResult ShowData()
+        {
+            return View();
+        }
+
     }
 }
